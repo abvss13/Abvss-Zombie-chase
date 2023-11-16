@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Player from './Player';
 import Zombie from './Zombie';
-import './app.css';
+import './App.css';
 
 const Game = () => {
   const [playerPosition, setPlayerPosition] = useState({ x: 50, y: 0 });
